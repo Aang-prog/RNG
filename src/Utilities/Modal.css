@@ -1,0 +1,68 @@
+.modal{
+    background-color:#1E201E;
+    width: 1040px;
+    border: 4px solid #8c1c13;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    animation: open 2s ;
+    height: 300px;
+  
+}
+
+@keyframes open {
+    0% {
+        height: 20px;
+        overflow: hidden;
+    }
+  
+    100% {
+        height: 300px;
+    }
+}
+.close:hover {
+    color: black;
+}
+
+.ItemName{
+    color: #8c1c13;
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color:#8c1c13 ;
+}
+
+.common {
+    color: rgb(191, 191, 191); /* Example color for Common */
+}
+
+.uncommon {
+    color: rgb(4, 115, 0); /* Example color for Uncommon */
+}
+
+.rare {
+    color: rgb(204, 1, 204); /* Example color for Rare */
+}
+
+.Rarity{
+    color: white;
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Attunement{
+    color: white;
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Description{
+    color: white;
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-size: 26px;
+}
