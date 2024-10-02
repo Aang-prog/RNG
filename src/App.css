@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #0C0C0C;
+  overflow: hidden;
 }
 
 .App-header {
@@ -11,6 +12,7 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
 }
 
 .title {
@@ -20,68 +22,16 @@
   background-color: #0C0C0C;
 }
 
-svg:hover {
-fill : rgb(121, 121, 121);
-cursor: pointer;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.rotate {
-  animation: rotate 1s linear infinite;
-}
 
 .Content {
   justify-content: center;
   background-color: #0C0C0C;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.Menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
   overflow: hidden;
-  background-color: #0C0C0C;
-  border: 4px solid #e7e7e7;
-  border-top:0px ;
-  border-radius: 5px;
-}
 
-.MenuItem {
-  float: left;
-}
-
-.MenuItem {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  width:200px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border : 1px solid #e7e7e7;
-  border-bottom: 0px;
-  border-top: 0px;
-}
-
-.MenuItem:hover {
-  background-color: #111;
-  cursor: pointer;
-}
-
-.MenuItem.active {
-  background-color: #000000;
 }

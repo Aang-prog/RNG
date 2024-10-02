@@ -1,126 +1,168 @@
 const data = [
     {
         id: 1,
-        title: 'Socks of the Comedian',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'These socks allow you to move very, very quietly. But they also make the action of sneaking around incredibly funny to you. You are likely to get the giggles, at least. gain disadvantage on stealth roles, +4 to stealth',
+        title: 'Potion of Invisibility',
+        description: 'This potions container looks empty but feels as though it holds liquid.',
+        effect: 'You become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.',
     },
 
     {
         id: 2,
-        title: 'The Ring of the Unseen',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'This ring allows you to become invisible for 1d4 rounds. After that, you are stunned for 1 round. You can use this ability once per day.',
+        title: 'Potion of Healing',
+        description: 'A bubbling red liquid.',
+        effect: 'You regain 2d4 + 2 hit points.',
     },
 
     {
         id: 3,
-        title: 'The Sword of the Sun',
-        rarity: 'Rare',
-        attunement: 'Attunment Required',
-        description: 'This sword is a +2 weapon. It also allows you to cast the spell "Sunbeam" once per day.',
-    },
+        title: 'Potion of Fire Breath',
+        description: 'A red liquid with orange flakes.',
+        effect: 'After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one.',
+    },	
 
     {
         id: 4,
-        title: 'The Shield of the Turtle',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'This shield gives you a +2 bonus to AC. It also allows you to cast the spell "Shield" once per day.',
+        title: 'Potion of Divination',
+        description: 'A swirling silver and purple liquid.',
+        effect: 'You sense what will happen. Roll a d20 and use it to replace one future roll',
     },
 
     {
         id: 5,
-        title: 'The Boots of the Wind',
-        rarity: 'Common',
-        attunement: 'Attunment Required',
-        description: 'These boots give you a +10 bonus to your movement speed. They also allow you to cast the spell "Jump" once per day.',
+        title: 'Potion of Sleep',
+        description: 'A matte black liquid.',
+        effect: 'You fall into a magical slumber for 1 minute. The sleeper can be awakened by taking damage.',
     },
 
     {
         id: 6,
-        title: 'The Cloak of the Bat',
-        rarity: 'Rare',
-        attunement: 'Attunment Required',
-        description: 'This cloak gives you a +2 bonus to AC. It also allows you to cast the spell "Fly" once per day.',
+        title: 'Vial of Haste',
+        description: 'A bright yellow fluid is streaked with black and swirls on its own.',
+        effect: 'You gain the effect of the haste spell for 1 minute (no concentration required).'
     },
 
     {
         id: 7,
-        title: 'The Ring of the Owl',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'This ring gives you a +2 bonus to perception checks. It also allows you to cast the spell "Darkvision" once per day.',
+        title: 'Potion of Water Breathing',
+        description: 'A clear blue liquid.',
+        effect: 'You can breathe underwater for 1 hour after drinking this potion.'
     },
 
     {
         id: 8,
-        title: 'The Amulet of the Fox',
-        rarity: 'Common',
-        attunement: 'Attunment Required',
-        description: 'This amulet gives you a +2 bonus to dexterity saving throws. It also allows you to cast the spell "Pass Without Trace" once per day.',
+        title: 'Potion of Growth',
+        description: 'The red in the potions liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
+        effect: 'You gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required).'
     },
 
     {
         id: 9,
-        title: 'The Gauntlets of the Bear',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'These gauntlets give you a +2 bonus to strength saving throws. They also allow you to cast the spell "Enlarge" once per day.',
+        title: 'Elixer of Undead',
+        description: 'A dark black and green liquid.',
+        effect: '	Your skin turns pale and your blood stops pumping. You become undead for 1d4 hours.'
     },
 
     {
         id: 10,
-        title: 'The Helm of the Eagle',
-        rarity: 'Common',
-        attunement: 'Attunment Required',
-        description: 'This helm gives you a +2 bonus to intelligence saving throws. It also allows you to cast the spell "Detect Magic" once per day.',
+        title: 'Sublime Potion of Rhyme',
+        description: 'A bubbling pink liquid. Try not to get addicted, It smells like bubblegum, Yum!.',
+        effect: 'You can only speak in rhyme for 1d4 hour(s). youll find talking normally impossible with these new powers.',
     },
 
     {
         id: 11,
-        title: 'The Dagger of Bad Dreams',
-        rarity: 'Uncommon',
-        attunement: 'Attunment Required',
-        description: 'A black dagger with a twisted blade. The blade retracts into the handle, causing no damage. However, on a failed INT or PRE save, the stabbed person believes they are dying. On a D6 critical failure the attacker also believes they’ve committed murder.',
+        title: 'Potion of the Cat',
+        description: 'A clear liquid with a single cat hair floating in it.',
+        effect: 'You gain the ability to see in the dark and have advantage on perception checks for 1 hour.'
     },
 
     {
-        id:12,
-        title: 'The Flask of Suprise',
-        rarity: 'Rare',
-        attunement: '',
-        description: 'Once a day roll the random potions table. Whatever the dice leads to is what you get for that day.'
+        id: 12,
+        title: 'Potion of the Dog',
+        description: 'A clear liquid with a single dog hair floating in it.',
+        effect: 'You have advantage on survival checks for 1 hour.'
     },
 
     {
-        id:13,
-        title: 'The Morons Burden',
-        rarity: 'Rare',
-        attunement: '',
-        description: 'This purple hood can only be worn by those with very low intelligence. It will glow bright purple when that person is being lied to, and this effect is visible to everyone around them.'
+        id: 13,
+        title: 'Concoction of a one leaf clover',
+        description: 'A green liquid with a single clover leaf floating in it.',
+        effect: 'Gives the user worst luck. Your next roll is an automatic 1.'
     },
 
     {
-        id:14,
-        title: 'The Fecund Stone',
-        rarity: 'Rare',
-        attunement: '',
-        description: 'This artifact appears to be a small, normal stone. If buried, it causes plant life to grow with wild abundance over an area the size of a single acre.',
+        id: 14,
+        title: 'Potion of the Owl',
+        description: 'A clear liquid with a single owl feather floating in it.',
+        effect: 'You have advantage on wisdom checks for 1 hour.'
     },
 
     {
-        id:15,
-        title: ''
+        id: 15,
+        title: 'Elixer of the Serpent Tongue',
+        description: 'A liquid looks like a snake is swimming in it.',
+        effect: 'Makes the user only able to lie. for 1d4 hours.'
+    },
+
+    {
+        id: 16,
+        title: 'Clockwork Draught',
+        description: 'A silver liquid. its ticking like a clock for some reason.',
+        effect: 'You instsantly know the time and date.'
+    },
+
+    {
+        id: 17,
+        title: 'Tonic of Worging',
+        description: 'A dark brown liquid.',    
+        effect: 'Lets the user gain control of a nearby creature, their body comatosed while they do.'
+    },
+
+    {
+        id: 18,
+        title: 'Vial of Flavour',
+        description: 'A rainbow liquid.',
+        effect: 'Sprinkle on food to make anything and everything taste incredible.'
+    },
+
+    {
+        id: 19,
+        title: 'Filter of Speed',
+        description: 'A boiling liquid that is plum in color.',
+        effect: 'You gain double your speed for 1d6 rounds.'
+    },
+
+    {
+        id: 20,
+        title: 'Vial of Courage',
+        description: 'A glowing golden liquid.',
+        effect: 'You are filled with courage, making you immune to fear effects for 1d4 days.'
+    },
+
+    {
+        id: 21,
+        title: 'Tonic of temporay vigor',
+        description: 'A boiling liquid that is dark red in color.',
+        effect: 'You gain 1d12 temporary hit points.',
+    },
+
+    {
+        id: 22,
+        title: 'Mouthwash of Freshness',
+        description: 'A liquid that is white in color and cold to the touch.',
+        effect: 'Your breath is fresh and minty for 1d4 hours it also whitens your teeth and removes plaque.',
+    },
+
+    {
+        id: 23,
+        title: '',
+        description: '',
+        effect: '',
     },
 
 
+    
 
 
-
-];
-
-export default data;
-
+    ];
+    export default data;

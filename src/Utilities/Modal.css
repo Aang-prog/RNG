@@ -1,11 +1,11 @@
 .modal{
     background-color:#1E201E;
-    width: 1040px;
     border: 4px solid #8c1c13;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     animation: open 2s ;
     height: 300px;
+    
   
 }
 
@@ -66,3 +66,15 @@
     font-weight: 400;
     font-size: 26px;
 }
+
+@media (min-width: 800px) {
+    .modal {
+       width: 400px!important;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .modal {
+       width:  1040px!important;
+    }
+  }
