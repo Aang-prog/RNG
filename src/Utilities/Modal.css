@@ -70,6 +70,7 @@
 @media (min-width: 800px) {
     .modal {
        width: 400px!important;
+       height: 500px;
     }
   }
 
