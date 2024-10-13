@@ -51,8 +51,8 @@ const data = [
     {
         id: 8,
         title: 'Potion of Growth',
-        description: 'The red in the potions liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
-        effect: 'You gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required).'
+        description: 'A red bead in the potions clear liquid continuously expands.',
+        effect: 'You gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours.'
     },
 
     {
@@ -155,13 +155,66 @@ const data = [
 
     {
         id: 23,
-        title: '',
-        description: '',
-        effect: '',
+        title: 'Greater healing potion',
+        description: 'A red liquid with gold flakes.',
+        effect: 'Gain 4d4 + 4 hit points.',
     },
 
+    {
+        id: 24,
+        title: 'Potion of the Bard',
+        description: 'A clear liquid with a single feathe floating in it.',
+        effect: 'You gain the ability to cast the friends cantrip for 1 hour.',
+    },
 
+    {
+        id: 25,
+        title: 'Potion of Longevity',
+        description: 'A golden liquid with blue flakes in it.',
+        effect: 'Reduces the drinkers age by 1d6+6 years (max. 12 years old).',
+    },
+
+    {
+        id: 26,
+        title: 'Potion of Storm Giant Strength',
+        description: 'A white liquid with lightning flowing throughout it.',
+        effect: 'Your Strength score changes to 29 for 1 hour.',
+    },
+
+    {
+    id: 27,
+    title: 'Message in a Bottle',
+    description: 'Just a rolled up piece of paper with the words eat me written on it.',
+    effect: 'You gain the ability to cast the message cantrip for 1 hour.',
+    },
     
+    {
+    id: 28,
+    title: 'filter of the unseen beast',
+    description: 'A bubbling red and black liquid.',
+    effect: 'For 1 hour you turn invisible except to animals. They are enraged by you..',
+    },
+    
+    {
+    id: 29,
+    title: 'Potion of the Trickster',
+    description: 'A clear liquid with a single feather floating in it.',
+    effect: 'You gain the ability to cast the minor illusion cantrip for 1 hour.',
+    },
+
+    {
+    id: 30,
+    title: 'Elixer of Ascension',
+    description: 'A glowing golden liquid.',
+    effect: 'You begin to float weightlessly away to the heavens for 1d4 hours.',
+    },
+
+    {
+        id: 31,
+        title: 'Potion of time travel',
+        description: 'A blue liquid withe white patterns thoughout it.',
+        effect: 'You fall asleep for 1 hour and wake up one hour in to the future.',
+    },
 
 
     ];
